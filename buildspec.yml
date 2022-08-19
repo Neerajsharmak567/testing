@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm next build
+      - npm run build
       
 artifacts:
   files:
